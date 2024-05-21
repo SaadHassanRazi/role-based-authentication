@@ -6,7 +6,7 @@ function Dashboard() {
 
   return (
     <div>
-      <h1>Welcome, {user}</h1>
+      <h1>Welcome, {user} {}</h1>
       <h2>You are logged in as: {role === 'admin' ? 'Admin' : 'Student'}</h2>
       {role === 'admin' ? (
         <div>
